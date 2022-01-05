@@ -34,7 +34,7 @@ class BPE_token(object):
 
 
 
-paths = [str(x) for x in Path("./text_data/").glob("**/*.txt")]
+paths = ['./verge_2021_11.txt']
 print(paths)
 tokenizer = BPE_token()
 tokenizer.bpe_train(paths)
