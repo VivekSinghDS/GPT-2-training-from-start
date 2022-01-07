@@ -11,8 +11,8 @@ A way where one can GPT2 from their text data for inference, instead of download
 <li>After execution, run the "execute.py" file to generate results as per your needs : ) </li>
 
 <h3>Requirements</h3>
-transformers = 4.15.0
-tensorflow = 2.7.0
+transformers = 4.8.1
+tensorflow = 2.2.0
 tokenizers = 0.10.3
 pathlib = 1.0.1
 
